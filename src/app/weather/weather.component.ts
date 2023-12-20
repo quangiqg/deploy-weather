@@ -15,7 +15,7 @@ export class WeatherComponent  implements OnInit{
   pressure: number = 0;
   summary: string = '';
   iconURL: string = '';
-  city: string = 'SaiGon';
+  city: string = 'Vinh';
   units: string = 'imperial'
 
   convertToFahrenheit(temperature: number): number {
